@@ -209,26 +209,6 @@ const LANG_JA: Localization = {
   text_fetch_error: "接続ができませんでした",
 };
 
-// Danish
-const LANG_DA: Localization = {
-  text_init: "Initialiserer..",
-
-  text_ready: "Anti-robot verifikation",
-  button_start: "Klik for at starte verifikationen",
-
-  text_fetching: "Henter udfordring",
-
-  text_solving: "Bekræfter, at du er menneske..",
-  text_completed: "Jeg er menneske",
-
-  text_expired: "Anti-Robot-verifikation er udløbet",
-  button_restart: "Genstart",
-
-  text_error: "Bekræftelse mislykkedes",
-  button_retry: "Prøv igen",
-  text_fetch_error: "Det lykkedes ikke at oprette forbindelse til",
-};
-
 export const localizations = {
   en: LANG_EN,
   de: LANG_DE,
@@ -239,5 +219,4 @@ export const localizations = {
   es: LANG_ES,
   ca: LANG_CA,
   ja: LANG_JA,
-  da: LANG_DA,
 };
